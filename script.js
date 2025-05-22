@@ -1,5 +1,5 @@
 function newCity(){
-    const city = window.prompt("Type in the name of the city:");
+    const city = window.prompt("Type in the name of the city:").trim();
     const loader = document.getElementById("loader");
     // const city = "Nigeria";
 
